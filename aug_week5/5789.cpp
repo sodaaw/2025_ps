@@ -5,14 +5,16 @@ int main() {
     int n;
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
+    while (n--) {
         string nums;
         cin >> nums;
 
-        if (nums.front() == nums.back())
+        int len = nums.size();
+
+        if (nums[len/2 - 1] == nums[len/2])
             cout << "Do-it" << endl;
         else
-            cout << "Do-it-Not" << endl;
+            cout <<"Do-it-Not" << endl;
     }
     return 0;
 }
