@@ -1,11 +1,20 @@
+# mac
 .DS_Store
-july_week4/*
-!july_week4/*.cpp
 
-july_week5/*
-!july_week5/*.cpp
-july_week5/tempCodeRunnerFile.cpp
-
-tempCodeRunnerFile.cpp
-
+# VSCode
 .vscode/
+
+# C++ 실행파일 (확장자 없는 파일)
+**/[0-9]*
+
+# 또는 일반적으로
+*.out
+*.exe
+*.app
+
+# temp files
+tempCodeRunnerFile.cpp
+**/tempCodeRunnerFile.cpp
+
+# except cpp source
+!**/*.cpp
