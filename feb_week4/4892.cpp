@@ -11,6 +11,7 @@ int main() {
         if (n0 == 0) break;
 
         cout << count + 1 << ". ";
+        count++;
 
         n1 = 3 * n0;
         if (n1 % 2 == 0) {
