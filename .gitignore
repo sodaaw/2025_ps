@@ -18,3 +18,4 @@ tempCodeRunnerFile.cpp
 
 # except cpp source
 !**/*.cpp
+!mar_week4/*.py
